@@ -19,7 +19,8 @@
             android:layout_width="match_parent"
             android:layout_height="328dp"
             android:layout_gravity="center"
-            android:src="@drawable/bones" />
+            android:src="@drawable/bones"
+            android:scaleType="fitXY"/>
 
         <TextView
             android:id="@+id/tv_nombre_pelicula"
