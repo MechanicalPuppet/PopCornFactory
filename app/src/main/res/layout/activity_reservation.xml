@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/negro"
+    tools:context=".ReservationActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:textColor="@color/amarillo"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lograste reservar para la pelicula:" />
+
+    <TextView
+        android:id="@+id/tituloPelicula"
+        android:textColor="@color/amarillo"
+        android:textSize="30dp"
+        android:layout_weight="3"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la pelicula" />
+
+    <TextView
+        android:id="@+id/asiento"
+        android:textColor="@color/amarillo"
+        android:textSize="30dp"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="1" />
+</LinearLayout>

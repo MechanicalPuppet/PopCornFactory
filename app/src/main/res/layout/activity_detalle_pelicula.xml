@@ -5,22 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DetallePelicula"
+    android:background="@color/black"
     android:orientation="vertical">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="@color/black">
+        android:background="@color/black"
+        android:orientation="vertical">
 
         <ImageView
             android:id="@+id/iv_pelicula_imagen"
             android:layout_width="match_parent"
             android:layout_height="328dp"
             android:layout_gravity="center"
-            android:src="@drawable/bones"
-            android:scaleType="fitXY"/>
+            android:scaleType="fitXY"
+            android:src="@drawable/bones" />
 
         <TextView
             android:id="@+id/tv_nombre_pelicula"
@@ -34,15 +35,35 @@
         <TextView
             android:id="@+id/tv_pelicula_desc"
             android:layout_width="match_parent"
-            android:layout_height="369dp"
+            android:layout_height="wrap_content"
             android:text="lorem ipsum dolor sit amet, consectetur adipiscking elit sed do"
             android:textColor="@color/blancoNiebla"
             android:textSize="14sp" />
 
 
-
-
-
     </LinearLayout>
+
+    <Button
+        android:id="@+id/buyTickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_button"
+        android:paddingHorizontal="@dimen/paddingButton"
+        android:text="Buy my ticket!" />
+
+
+    <TextView
+        android:id="@+id/seatsLeft"
+        android:textColor="@color/grisClaro"
+        android:textStyle="italic"
+        android:layout_marginTop="7dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
 
 </LinearLayout>
